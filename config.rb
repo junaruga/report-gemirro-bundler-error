@@ -37,7 +37,7 @@ Gemirro.configuration.configure do
   # All gem in the block will be downloaded with the update command.
   # Other gems will be downloaded with the server.
   define_source 'rubygems', 'https://rubygems.org' do
-    gem 'gem2rpm', '>= 1.0.0'
+    gem 'gem2rpm', '>= 1.0.1'
   end
 
   # define_source 'private-repo', 'http://127.0.0.1:8801' do
