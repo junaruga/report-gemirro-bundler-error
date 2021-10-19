@@ -40,7 +40,8 @@ Gemirro.configuration.configure do
     gem 'gem2rpm', '>= 1.0.1'
   end
 
-  # define_source 'private-repo', 'http://127.0.0.1:8801' do
-  #   gem 'a', '>= 0.0.1'
-  # end
+  # If this block is commented, the `gemirro update` works.
+  define_source 'private-repo', 'http://127.0.0.1:8801' do
+    gem 'a', '>= 0.0.1'
+  end
 end
